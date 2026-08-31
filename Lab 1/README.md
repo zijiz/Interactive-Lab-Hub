@@ -93,9 +93,7 @@ Video link：https://youtube.com/shorts/x_NnY7BxC3s?feature=share
 The timing was harder than it looked on paper. We had to pause long enough after each signal so the call-and-response was clear. The phone was also much smaller than the alien ship’s lights, so the human operator’s reactions were important. We also realized that the signals should become faster and more complicated over time. The alien first copies the human’s simple signal, showing that communication is possible. It then sends a complex signal that the human cannot follow, showing the difference between their abilities. One key moment is the alien’s first response. It could copy the human correctly, respond incorrectly, or remain silent. Another is when the signal becomes too complicated: the human could keep trying, make a mistake, stop, or let the computer attempt to respond.
 
 
-## Part C. Prototype the Light (light first!)
-
-## Part C — Prototype the Light
+## Part C. Prototype the Light
 
 For the light prototype, we used a smartphone as the alien light source and controlled it remotely with the Tinkerbelle interface on a computer.
 
@@ -109,7 +107,7 @@ After the sequence finishes, the screen goes dark for about two seconds. This pa
 
 The alien then repeats the five-color sequence. In the next round, the response becomes faster and slightly more complex:
 
-**1 → 2 → 3 → 4 → 5 → 3 → 5 → etc **
+**1 → 2 → 3 → 4 → 5 → 3 → 5 → etc**
 
 As the interaction continues, we reduce the delay between the human input and the alien response and increase the speed of the color changes. By the final exchange, the lights change too quickly for the human operator to follow.
 
@@ -125,74 +123,47 @@ For this stage, we kept the prototype intentionally simple and focused only on m
 
 ## Part D. Wizard the Device
 
-One of us hid off-camera as the wizard, watching Peter and driving the laptop; the
-other performed Peter and carried the costumed phone. We recorded over Zoom and
-pinned the "stage" feed. The wizard's whole job was to answer the actor in real
-time — brighten when Peter smiles at her, flare when Wendy enters, and ride the
-slow fade on cue.
+For this stage, we used two people to create a Wizard-of-Oz setup.
 
-*(First wizarded run-through video pasted in here in a real submission.)*
+One person stayed hidden behind the screen with a computer and acted as the **wizard**, controlling the alien response. After the human side sent the five-tone light sequence, the wizard manually triggered the alien signals based on our planned timing, including pauses, repetition, faster responses, and changes in the sequence.
 
-The revival beat only worked once the wizard stopped watching the laptop and
-watched *the actor and the room*, bringing the light up in time with the clapping.
-Driving it by the script alone felt dead; driving it by reading the room felt
-alive.
+The second person used **Tinkerbelle** to control the visible light interface and acted as the human side of the communication.
+
+By hiding the person controlling the alien signals, the response appeared to happen on its own. From the viewer's perspective, the light seemed to receive the human signal and then intentionally respond to it.
+
+The most important part of this setup was the **timing** between the two people. The first alien response included a noticeable pause so that it felt like the signal was being received and processed. Later responses became faster, making the interaction feel more like an active conversation.
+
+video link: https://youtube.com/shorts/Tg2VfQDJvLM?feature=share
 
 ## Part E. Costume the Device
 
-We made three costumes for the phone so the bare screen wouldn't break the spell:
+For the visual setup, we kept the device simple rather than building a separate physical shell.
 
-1. **Paper-lantern Tinker Bell** — a small translucent paper globe around the
-   phone that diffuses the screen into a soft orb of light. Reads as "fairy" and
-   hides the rectangle. *(Our pick.)*
-2. **Frosted jar** — phone inside a frosted glass jar; prettier glow but too heavy
-   to "dart" convincingly.
-3. **Vellum-and-wire wings** — phone clipped behind a pair of translucent wings so
-   the light shines through them. Charming but fragile.
+We used a **computer to control the light signals** and an **external monitor as the visible light surface**. The monitor acted as our simplified version of the five-tone light wall from *Close Encounters of the Third Kind*. By using a larger screen instead of a phone alone, the color changes were easier to see and felt more like a shared communication display.
 
-**Concerns / opportunities shaping the look:** the object has to be *light enough
-to fly* (dart through the air on a stick or by hand), it has to *diffuse* the hard
-screen into a soft glow, and it must not show the phone's edges or the operator's
-hand. The paper lantern won because it was the lightest and the most diffuse — the
-staging need (fast, floaty motion) drove the material choice more than looks did.
+We intentionally kept the surrounding setup minimal so that the computer hardware would not distract from the light interaction. In a darker environment, the monitor became the main visual focus, allowing the changing colors, timing, and rhythm to carry the interaction.
+
+The main design concern was **visibility**. The light needed to be bright and large enough for both the performer and the camera to clearly see each response. At the same time, we wanted the setup to remain simple so that the audience focused on the communication rather than the physical device itself.
 
 ## Part F. Record
 
-*(Final ~60-second video sketch pasted in here in a real submission: the nursery
-scene through the revival beat, with a real audience clapping the light back.)*
+### Final Video Sketch
 
-Our aim was the bar from the top of the lab — a viewer who knows *Peter Pan*
-recognizes the "clap if you believe" moment instantly, and a viewer who doesn't
-still understands that a light became a character the audience chose to save.
+We recorded our final prototyped interaction based on the third storyboard.
 
-**Non-sequential interaction sketch:** see
-`tinkerbell_interaction_sketch.svg` in this folder. It's a single hub diagram:
-the light at the center with its four-part vocabulary radiating out, the
-real-time loop (actor → wizard → light → others & audience → back) running around
-the ring, and the revival beat called out as the audience-input / light-output
-moment. We drew it as a hub rather than a filmstrip on purpose — the storyboard
-already shows the *sequence*; this shows the *system*.
+The video shows the human side sending a five-tone light sequence and the alien side responding after a short pause. As the interaction continues, the alien response becomes faster and slightly more complex, making the exchange feel less like simple playback and more like an active conversation.
 
-**Collaborators & influences:** Jane and John split wizard/actor duties and traded
-off. Thanks to the group in our breakout room who guessed the piece from the
-storyboards and pushed us to separate "leading" from "jealousy." Background on the
-original staging came from the standard *Peter Pan* production histories.
+To show the non-sequential aspect of the interaction, the alien response does not remain exactly the same each time. The timing, pattern, and speed change as the exchange develops.
+https://youtube.com/shorts/ABfAvi-35Fk?feature=share
+
+### Collaboration
+
+I collaborated with **Nishant Ray** on this lab.
+
+We worked together on the storyboards, interaction design, and video setup. During the final prototype, one person controlled the human-side interaction using Tinkerbelle, while the other stayed hidden behind the screen and controlled the alien responses from the computer.
+
+We also used the Tinkerbelle tool provided by the Interactive Lab course to prototype and control the light interaction.
 
 ---
 
-## (Bonus) Part 2 — Make It Your Own
-
-Modeling the second week for you: our critique of the master was that it's totally
-dependent on a hidden human operator. So our remix asks: *what if Tink had to run
-without a wizard — and what if she didn't use light at all?*
-
-We rebuilt her as a **pocket haptic fairy**: a phone in your pocket that represents
-Tink through **vibration** instead of light. A gentle steady buzz when she's near
-and content, an excited flutter when she wants your attention, a sharp double-buzz
-for "no / danger," and a long slow fade to stillness when she's fading. You revive
-her not by clapping but by **holding the phone to your chest** (the accelerometer
-detects it) — belief becomes a private, physical gesture instead of a public one.
-
-It trades the theatrical, communal magic of the original for something intimate and
-solo — which is exactly the kind of strength/weakness tradeoff Part 0 asked us to
-find. *(Storyboard + video pasted in here in a real submission.)*
+## Part 2 — Make It Your Own
