@@ -42,20 +42,37 @@ Our goal as designers is to make the audience understand that a conversation is 
 
 **Our three storyboards** 
 
-1. Dark nursery. A single darting light enters through the window — quick, bright,
-   curious. Peter chases it in.
-2. Peter cups his hands; the light settles into them and pulses gently. He says,
-   "This is Tink." (Light = calm, bright.)
-3. Peter points across the room; the light *darts ahead* of him to the drawer —
-   she's leading him to his lost shadow. (Motion = attention.)
-4. Wendy steps in. The light snaps toward her and *flares hot* — a jealous surge —
-   then buzzes around her head. (Flare = emotion.)
-5. The light blinks a sharp little rhythm; Peter listens and translates: "She says
-   you're a silly ass, Wendy." (Blink + chime = speech.)
-6. Tink drinks the poison. The light **sinks** — slower blinks, dimming, drifting
-   toward the floor. The room goes quiet.
-7. Peter turns to *us*. "Do you believe in fairies? Clap!" As clapping rises, the
-   light **swells back** to full and lifts. Revival.
+Storyboard 1. Basic Call and Response
+Our first storyboard focuses on the simplest version of the interaction.
+The human operator sends a five-color sequence:
+1 → 2 → 3 → 4 → 5
+The light turns off for approximately two seconds.
+The alien then repeats the same sequence:
+1 → 2 → 3 → 4 → 5
+The operator reacts when they realize that the signal has been returned.
+This version tests whether the basic idea of “we sent something, and something answered us” is clear to the viewer.
+![Storyboard 1](storyboard_1.jpg)
+
+Storyboard 2. Pattern Variation
+In the second storyboard, we added a small variation to make the exchange feel more like a conversation instead of simple playback.
+The human sends:
+1 → 2 → 3 → 4 → 5
+The alien repeats it.
+The human sends the same sequence again.
+This time, the alien responds with:
+1 → 2 → 3 → 4 → 5 → 3 → 5
+The operator pauses and then tries to repeat the new sequence.
+This creates a stronger sense that both sides are participating in the interaction and beginning to build a shared pattern.
+
+Storyboard 3. Increasing Speed
+For the third storyboard, we kept the same call-and-response structure but added increasing speed and complexity.
+The human begins with a slow five-part sequence.
+After a short pause, the alien responds with the same sequence.
+During the next exchange, the alien responds more quickly and adds additional signals.
+The human tries to follow the new pattern, but the alien continues getting faster.
+Eventually, the operator is unable to keep up and stops interacting while the light continues rapidly on its own.
+This creates a clearer progression from simple communication to a moment where the interaction moves beyond direct human control.
+
 
 **Feedback and Chosen Direction:** 
 The first storyboard was easy to understand, but it felt too much like a simple input-and-output system.
