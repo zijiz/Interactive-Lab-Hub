@@ -41,7 +41,11 @@ The alien's role is to acknowledge the human signal, respond to it, and graduall
 Our goal as designers is to make the audience understand that a conversation is developing using only light, timing, and the reactions of the human operator.
 
 **Our three storyboards** 
-![Storyboard 1](storyboard_1.png)
+![Storyboard 1](storyboard%201.png)
+
+![Storyboard 2](storyboard%202.png)
+
+![Storyboard 3](storyboard%203.png)
 Storyboard 1. Basic Call and Response
 Our first storyboard focuses on the simplest version of the interaction.
 The human operator sends a five-color sequence:
