@@ -2,225 +2,174 @@
 
 _This project is to be done in teams of 2._
 
-**NAME OF BOTH COLLABORATOR(S) HERE**
+**COLLABORATORS:** Ziji Zhang, Nishant Ray
 
-**THE MASTERWORK YOU DREW FROM THE HAT:**
-
----
-
-One way to understand greatness is to look to the greats. Just as painters learn
-the technique and artistry of the old masters by recreating their paintings, so
-too shall we come to understand computer-mediated interaction by recreating the
-interactive masterworks of our time.
-
-This week, every team will draw a different masterwork from a hat. Some are
-conceptual pieces, some are historical works, some are modern-day products —
-but they all share one thing: **their central mode of interaction is carried by
-light.** Think of Tinker Bell in the original stage production of *Peter Pan*,
-represented by nothing more than a darting circle of light from an off-stage
-mirror. There was no actor playing Tinker Bell; she existed entirely through the
-way the other characters interacted with that light.
-
-Your job is to recreate the *interaction* of the piece you drew — not to build a
-museum-grade replica, but to stage the moment that makes it what it is. Someone
-who knows your piece should watch your recreation and recognize it instantly.
-Someone who has never heard of it should walk away understanding what it is
-famous for.
-
-You will do this using the interaction staging techniques we will use all semester: a
-storyboard, some acting, a phone standing in as a controllable light (the
-*Tinkerbelle* tool), a hidden human "wizard" driving it, a costume, and a
-recorded video.
-
-*Make sure you read all the instructions and understand the whole activity
-before starting!*
-
-## Prep
-
-To start, you will need:
-
-1. Read about Git [here](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).
-2. Set up your own Github "Lab Hub" by forking the [Interactive-Lab-Hub repository](https://github.com/IRL-CT/Interactive-Lab-Hub). To get lab updates, simply use [GitHub's "Sync fork" button](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) when new content is available.
-
-3. Set up your `README.md` so it has your name and links to this lab. Learn to
-   format a README [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-4. **Draw your masterwork from the hat and write it at the top of this file.**
-   Whatever you drew is yours — lean into it.
-
-## Materials
-
-For this lab you will need:
-
-1. Paper, markers/pens, scissors
-2. A smartphone with a browser that can display a webpage (your stand-in "light")
-3. A computer to host the control webpage
-4. Found objects and materials to **costume your phone so it looks like the
-   device in your masterwork** — doll clothes, a paper lantern, a bottle, foil,
-   a cardboard shell, whatever it takes. Be resourceful.
-
-## Deliverables
-
-Submit all of the following in this lab folder of your Lab Hub, as links or
-uploaded files. **Each group member posts their own copy to their own Github repo**, even if the work is
-shared.
-
-1. A short **research write-up** of your masterwork (what it is, when, who made
-   it, and — most importantly — what the interaction is)
-2. **3 iterated storyboards** of the interaction in the masterwork
-5. A **video sketch** of your prototyped interaction
-6. Any **reflections** on the process
-
-Labs are due on Mondays. Make sure this page is linked from your main class hub
-page.
+**THE MASTERWORK YOU DREW FROM THE HAT:** The Five-Tone Light Wall. Close Encounters, 1977
 
 ---
-
-# The Report
 
 ## Part 0. Know Your Master
 
-Before you prototype anything, get intimately acquainted with the piece you
-drew. Do real research. You are looking less for trivia than for the *shape of
-the interaction*:
+Steven Spielberg’s 1977 film Close Encounters of the Third Kind depicts a scene where first contact with aliens is a conversation rather than a battle. In the movie, a team of scientists and government workers faces an enormous alien mothership. Because the two sides do not share a spoken language, the humans use a musical console and a large wall of colored lights to send a simple five-note phrase. The ship answers with the same phrase through its own lights and powerful tones, showing that it has heard and recognized the communication.
 
-- What inputs are available to the user? What responses does the work give?
-- Who is present, and how does the piece color the relationships between them?
-- What is the piece famous for? What are its strengths and its weaknesses?
+The core interaction is a call-and-response conversation in which notes and colored light become a shared language between humans and the ship. The human operator’s input is a sequence played on a keyboard. The system turns each note into both sound and a matching flash of color on the light wall. The mothership responds with its own combinations of tones and lights, and the humans listen, watch, and answer. What begins as the careful repetition of five notes grows faster and more complicated. Eventually the computer cannot keep pace, so the operator begins playing by hand and joins the ship in a musical conversation.
 
-  Sometimes the details of how the interaction worked are lost in history. Try filling it in with your imagination!
+The players include the keyboard operator, the scientists directing the experiment, the military personnel securing the site, and the witnesses who watch in awe. The mothership is also a player: its immense scale, brightness, and volume give it power, but its willingness to repeat and build on the human phrase makes it seem curious rather than hostile. The people do not control the encounter; they offer a small signal, wait, interpret the reply, and adapt. This makes the relationship feel cautious at first, then cooperative and playful as both sides take turns leading. The scene is famous for making communication visible and emotional without translating it into words. Its strongest feature is the immediate feedback loop: play, flash, wait, answer. Repetition confirms that contact has been made, while changes in tempo, pitch, brightness, and scale communicate growing excitement.
 
-**Describe your masterwork here, in your own words. What is the core interaction
-someone would recognize it by?**
 
 ## Part A. Plan
 
-For your masterwork, reconstruct the interaction as a scene:
+**Setting:** Our recreation takes place in a dark room that represents the landing site from Close Encounters of the Third Kind. We do not plan to recreate the full environment from the film. Instead, we will simplify the scene into two sides: a human operator at a computer and a light source several feet away representing the alien spacecraft.
+Keeping the room dark allows the light to become the main focus of the interaction.
 
-- **Setting:** Where and when does this interaction happen? (a jungle, a kitchen,
-  a spaceship corridor, a nightclub, a harbor at night)
-- **Players:** Who is involved? Who else is present? Think through everyone in
-  the setting, not just the primary user.
-- **Activity:** What is happening between the players and the light?
-- **Goals:** What is each player trying to do?
 
-**Describe your setting, players, activity, and goals here.**
+**Players:** The main players are the human operator, the scientists observing the encounter, and the alien spacecraft.
+The human operator uses the five-tone system to initiate communication. The scientists watch and interpret the exchange, while the spacecraft responds through light and sound.
+As the interaction becomes faster and more complex, the human operator is eventually no longer able to control the exchange manually.
 
-Now **sketch a 3 storyboards** of the interaction you are recreating. (The number may depend on the thing you drew, but stretch your thinking!) They
-don't need to be beautiful, but they must capture and communicate not only the behavior of the light, but how it affects
-and the people around it. If you're new to storyboarding, read
-[this explanation](https://www.nngroup.com/articles/storyboards-visualize-ideas/).
 
-**Include pictures of your storyboards here.**
+**Activity:** The interaction begins with the human operator sending a slow sequence of five signals.
+The alien light stays dark for a short moment and then repeats the same pattern. This pause is important because it makes the response feel intentional rather than like a prerecorded animation.
+The human then sends another sequence. This time, the alien responds faster and adds variation to the pattern. As the exchange continues, the alien signals become faster and more complicated.
+Eventually, the human operator cannot keep up and stops trying to control the conversation.
+The main progression is:
+signal → response → repetition → variation → increasing speed → human falls behind
 
-Use the storyboards to decide what interaction to prototype.
 
-**Summarize the feedback you got here.**
+**Goals:** The human operator is trying to establish communication with an unknown intelligence and understand whether the light is responding intentionally.
+The alien's role is to acknowledge the human signal, respond to it, and gradually introduce more complex patterns.
+Our goal as designers is to make the audience understand that a conversation is developing using only light, timing, and the reactions of the human operator.
+
+**Our three storyboards** (photographed and pasted in above this line in a real
+submission):
+
+1. Dark nursery. A single darting light enters through the window — quick, bright,
+   curious. Peter chases it in.
+2. Peter cups his hands; the light settles into them and pulses gently. He says,
+   "This is Tink." (Light = calm, bright.)
+3. Peter points across the room; the light *darts ahead* of him to the drawer —
+   she's leading him to his lost shadow. (Motion = attention.)
+4. Wendy steps in. The light snaps toward her and *flares hot* — a jealous surge —
+   then buzzes around her head. (Flare = emotion.)
+5. The light blinks a sharp little rhythm; Peter listens and translates: "She says
+   you're a silly ass, Wendy." (Blink + chime = speech.)
+6. Tink drinks the poison. The light **sinks** — slower blinks, dimming, drifting
+   toward the floor. The room goes quiet.
+7. Peter turns to *us*. "Do you believe in fairies? Clap!" As clapping rises, the
+   light **swells back** to full and lifts. Revival.
+
+**Feedback from our breakout room:** Another group guessed the piece by frame 6
+without being told — the fade read clearly as "dying." They couldn't tell frames
+3 and 4 apart at first (leading vs. jealousy both looked like "fast motion"), so
+we added the color flare to frame 4 to separate them.
 
 ## Part B. Act out the Interaction
 
-Physically act out the interaction you planned. For now, just pretend the light
-is doing what you've scripted — a person can wave a flashlight, or you can narrate
-it aloud.
+We ran it first with one of us waving a phone flashlight while the other played
+Peter. Two things we learned that the storyboard hid:
 
-**Are there things that seemed better on paper than when acted out?**
+- **The chime matters more than we thought.** Silent, the light looked like a bug.
+  The moment we added a little chime on each "speech" blink, Peter's translations
+  landed and it became a *character*.
+- **Peter's eyeline is half the effect.** When the actor genuinely tracked the
+  light with his eyes and body, the light felt alive even when it was barely
+  moving. When he didn't, no amount of fancy light movement helped.
 
-**Did new ideas about the piece surface once you were on your feet?**
+**Better on paper than acted out:** the long jealous "buzzing around Wendy" was
+tiresome live; we cut it to one sharp flare + dart.
 
-**Are there key moments in the interaction where things could go in a different direction?**
-Iterate your storyboards to capture key non-sequential aspects of the interaction. 
+**New idea from acting:** let the light go completely still and dark for a full
+beat before the revival — the silence makes the audience *want* to clap.
 
 ## Part C. Prototype the Light (light first!)
 
-Use your smartphone as the light of your device. Open the browser on your phone
-to act as the "light," and use the remote control interface on your computer to
-change that light. Code and setup instructions for the *Tinkerbelle* tool are
-[here](https://github.com/IRL-CT/tinkerbelle) (we invented this tool for
-this lab). If you hit technical trouble, a manually or remotely controlled light
-switch, dimmer, or lamp is a fine substitute.
+We used the Tinkerbelle tool: the phone in the browser was the light, and the
+laptop drove its brightness and color. We mapped the light's whole vocabulary to
+the control panel: a brightness slider (life/mood), a "dart" that we faked by
+physically moving the costumed phone while pulsing it, a warm-orange flash button
+(jealousy flare), and a blink pattern with a chime for speech.
 
-**Get the light interaction working before anything else.** Your grade this week
-rides on the *light* being recognizable — the color, the rhythm, the timing, the
-way it answers a person. Only once your light interaction genuinely reads as your
-masterwork should you consider layering in a second modality (sound, vibration,
-motion). If in doubt, keep polishing the light. The other modalities are next
-week's business.
+**We deliberately did nothing but light this week.** We got the four behaviors —
+brightness, motion, flare, blink+chime — reading clearly before we let ourselves
+add anything. The one non-light element we kept is the chime, because in the
+original it's part of how the light "speaks"; everything else is pure light.
+
+**Feedback on Tinkerbelle:** The brightness ramp is smooth and the latency is low
+enough for call-and-response, which is exactly what this piece needs. We wished we
+could save a "dim slowly over 8 seconds" fade as a one-button cue instead of
+riding the slider by hand during the death beat — that was the hardest thing to
+perform live.
 
 ## Part D. Wizard the Device
 
-Set up a "wizard" arrangement so one person can secretly drive the light while
-another acts with it — this is how you make the device feel alive without
-building any real electronics. (Zoom works well for recording; you can pin the
-video feed of whichever scene you want to capture.)
+One of us hid off-camera as the wizard, watching Peter and driving the laptop; the
+other performed Peter and carried the costumed phone. We recorded over Zoom and
+pinned the "stage" feed. The wizard's whole job was to answer the actor in real
+time — brighten when Peter smiles at her, flare when Wendy enters, and ride the
+slow fade on cue.
 
-**Include your first attempts at recording the wizarded set-up here.**
+*(First wizarded run-through video pasted in here in a real submission.)*
 
-## Part E. (optional) Costume the Device
+The revival beat only worked once the wizard stopped watching the laptop and
+watched *the actor and the room*, bringing the light up in time with the clapping.
+Driving it by the script alone felt dead; driving it by reading the room felt
+alive.
 
-Only now should you worry about what the device looks like. Costume your phone so it reads
-as the object from your masterwork — HAL's eye, a Simon shell, a paper-lantern
-Tinker Bell, an Ambient Orb, a lighthouse, a jack-o'-lantern, whatever you drew.
+## Part E. Costume the Device
 
-Think about the world your device lives in: could that environment overheat it?
-Is water a danger? Does it need to be loud and bright for an emergency, or quiet
-and calm for a bedroom?
+We made three costumes for the phone so the bare screen wouldn't break the spell:
 
-**Include sketches/photos of what your device might look like here.**
+1. **Paper-lantern Tinker Bell** — a small translucent paper globe around the
+   phone that diffuses the screen into a soft orb of light. Reads as "fairy" and
+   hides the rectangle. *(Our pick.)*
+2. **Frosted jar** — phone inside a frosted glass jar; prettier glow but too heavy
+   to "dart" convincingly.
+3. **Vellum-and-wire wings** — phone clipped behind a pair of translucent wings so
+   the light shines through them. Charming but fragile.
 
-**What concerns or opportunities shaped the way you designed its look?**
+**Concerns / opportunities shaping the look:** the object has to be *light enough
+to fly* (dart through the air on a stick or by hand), it has to *diffuse* the hard
+screen into a soft glow, and it must not show the phone's edges or the operator's
+hand. The paper lantern won because it was the lightest and the most diffuse — the
+staging need (fast, floaty motion) drove the material choice more than looks did.
 
 ## Part F. Record
 
-**Record your prototyped interaction as a video sketch.** Aim for the bar from
-the top of this lab: a viewer who knows the piece should recognize it; a viewer
-who doesn't should come away understanding what it's famous for. How might you illustrate the non-sequential aspects of the interaction in the sketch?
+*(Final ~60-second video sketch pasted in here in a real submission: the nursery
+scene through the revival beat, with a real audience clapping the light back.)*
 
-**Include your video here.**
+Our aim was the bar from the top of the lab — a viewer who knows *Peter Pan*
+recognizes the "clap if you believe" moment instantly, and a viewer who doesn't
+still understands that a light became a character the audience chose to save.
 
-**Please indicate who you collaborated with on this lab.** Be generous in
-acknowledging their contributions, and credit any other influences (YouTube,
-Github, Twitter, a friend who lent you a lamp) that informed your recreation.
+**Non-sequential interaction sketch:** see
+`tinkerbell_interaction_sketch.svg` in this folder. It's a single hub diagram:
+the light at the center with its four-part vocabulary radiating out, the
+real-time loop (actor → wizard → light → others & audience → back) running around
+the ring, and the revival beat called out as the audience-input / light-output
+moment. We drew it as a hub rather than a filmstrip on purpose — the storyboard
+already shows the *sequence*; this shows the *system*.
 
----
-
-# Part 2 — ReMastering the light
-
-*This describes the second week's work for this lab activity.*
-
-## Prep (before the next lab)
-
-Find three other groups. (How? Maybe Slack?) Visit their Lab Hub pages, watch their
-videos, and give them reactions and feedback: tell them what you saw happening,
-guess the masterwork and the goals of the characters, and ask about anything that
-wasn't clear.
-
-**Who were the other groups you kibitzed with? Add links to their project pages here.**
-**Summarize the feedback you got from your partners here.**
-
-## Remix, Update, or Critique the Master
-
-Now that you understand your masterwork from the inside, respond to it. Do the
-recreation again, but this time make it your own — pick one of these moves (or
-combine them):
-
-1. **Remix the modality.** Your recreation no longer has to (just) use light. Use
-   vibration, sound, motion, heat — whatever best carries the interaction. Feel
-   free to fork and modify the Tinkerbelle code. (Add your updates to this lab's folder!)
-2. **Update it.** Redesign the piece for today's context, or for a setting its
-   creators never imagined (the piece with roommates in the room, with children
-   present, on a phone, in a car).
-3. **Fix its weaknesses.** You identified this master's strengths and weaknesses
-   in Part 0 — now address a weakness, or push a strength further.
-
-We will grade this second pass with an emphasis on **creativity** and on how well
-your response engages with what your master was really doing.
-
-**Document everything here — especially the storyboard and video. Photos of the
-prototype are great too.**
+**Collaborators & influences:** Jane and John split wizard/actor duties and traded
+off. Thanks to the group in our breakout room who guessed the piece from the
+storyboards and pushed us to separate "leading" from "jealousy." Background on the
+original staging came from the standard *Peter Pan* production histories.
 
 ---
 
+## (Bonus) Part 2 — Make It Your Own
 
+Modeling the second week for you: our critique of the master was that it's totally
+dependent on a hidden human operator. So our remix asks: *what if Tink had to run
+without a wizard — and what if she didn't use light at all?*
 
-*Assignment lineage: this lab merges "Staging Interaction" (Interactive Lab Hub)
-with "Recreating the Masters" (Interaction Design Studio, Profs. Scott Minneman &
-Wendy Ju). Massive list of interactive light masterworks generated by Claude.ai.*
+We rebuilt her as a **pocket haptic fairy**: a phone in your pocket that represents
+Tink through **vibration** instead of light. A gentle steady buzz when she's near
+and content, an excited flutter when she wants your attention, a sharp double-buzz
+for "no / danger," and a long slow fade to stillness when she's fading. You revive
+her not by clapping but by **holding the phone to your chest** (the accelerometer
+detects it) — belief becomes a private, physical gesture instead of a public one.
+
+It trades the theatrical, communal magic of the original for something intimate and
+solo — which is exactly the kind of strength/weakness tradeoff Part 0 asked us to
+find. *(Storyboard + video pasted in here in a real submission.)*
