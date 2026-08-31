@@ -40,8 +40,7 @@ signal → response → repetition → variation → increasing speed → human 
 The alien's role is to acknowledge the human signal, respond to it, and gradually introduce more complex patterns.
 Our goal as designers is to make the audience understand that a conversation is developing using only light, timing, and the reactions of the human operator.
 
-**Our three storyboards** (photographed and pasted in above this line in a real
-submission):
+**Our three storyboards** 
 
 1. Dark nursery. A single darting light enters through the window — quick, bright,
    curious. Peter chases it in.
