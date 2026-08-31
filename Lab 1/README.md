@@ -88,40 +88,40 @@ It can be staged with a very simple setup, but still captures the main idea we w
 
 ## Part B. Act out the Interaction
 
-We ran it first with one of us waving a phone flashlight while the other played
-Peter. Two things we learned that the storyboard hid:
+Video link：https://youtube.com/shorts/x_NnY7BxC3s?feature=share
 
-- **The chime matters more than we thought.** Silent, the light looked like a bug.
-  The moment we added a little chime on each "speech" blink, Peter's translations
-  landed and it became a *character*.
-- **Peter's eyeline is half the effect.** When the actor genuinely tracked the
-  light with his eyes and body, the light felt alive even when it was barely
-  moving. When he didn't, no amount of fancy light movement helped.
+The timing was harder than it looked on paper. We had to pause long enough after each signal so the call-and-response was clear. The phone was also much smaller than the alien ship’s lights, so the human operator’s reactions were important. We also realized that the signals should become faster and more complicated over time. The alien first copies the human’s simple signal, showing that communication is possible. It then sends a complex signal that the human cannot follow, showing the difference between their abilities. One key moment is the alien’s first response. It could copy the human correctly, respond incorrectly, or remain silent. Another is when the signal becomes too complicated: the human could keep trying, make a mistake, stop, or let the computer attempt to respond.
 
-**Better on paper than acted out:** the long jealous "buzzing around Wendy" was
-tiresome live; we cut it to one sharp flare + dart.
-
-**New idea from acting:** let the light go completely still and dark for a full
-beat before the revival — the silence makes the audience *want* to clap.
 
 ## Part C. Prototype the Light (light first!)
 
-We used the Tinkerbelle tool: the phone in the browser was the light, and the
-laptop drove its brightness and color. We mapped the light's whole vocabulary to
-the control panel: a brightness slider (life/mood), a "dart" that we faked by
-physically moving the costumed phone while pulsing it, a warm-orange flash button
-(jealousy flare), and a blink pattern with a chime for speech.
+## Part C — Prototype the Light
 
-**We deliberately did nothing but light this week.** We got the four behaviors —
-brightness, motion, flare, blink+chime — reading clearly before we let ourselves
-add anything. The one non-light element we kept is the chime, because in the
-original it's part of how the light "speaks"; everything else is pure light.
+For the light prototype, we used a smartphone as the alien light source and controlled it remotely with the Tinkerbelle interface on a computer.
 
-**Feedback on Tinkerbelle:** The brightness ramp is smooth and the latency is low
-enough for call-and-response, which is exactly what this piece needs. We wished we
-could save a "dim slowly over 8 seconds" fade as a one-button cue instead of
-riding the slider by hand during the death beat — that was the hardest thing to
-perform live.
+We focused first on the timing and rhythm of the light rather than adding sound or building the physical appearance of the device.
+
+The interaction begins with a slow five-color sequence:
+
+**1 → 2 → 3 → 4 → 5**
+
+After the sequence finishes, the screen goes dark for about two seconds. This pause is important because it makes the next light sequence feel like a response rather than part of the same animation.
+
+The alien then repeats the five-color sequence. In the next round, the response becomes faster and slightly more complex:
+
+**1 → 2 → 3 → 4 → 5 → 3 → 5 → etc **
+
+As the interaction continues, we reduce the delay between the human input and the alien response and increase the speed of the color changes. By the final exchange, the lights change too quickly for the human operator to follow.
+
+We used three main variables to create this progression:
+
+- **Pattern:** from simple repetition to a longer sequence
+- **Speed:** from slow individual flashes to rapid changes
+- **Response delay:** from a noticeable pause to an almost immediate response
+
+This allowed us to create the feeling that the light was first listening, then responding, and eventually becoming an active participant in the conversation.
+
+For this stage, we kept the prototype intentionally simple and focused only on making the light interaction recognizable.
 
 ## Part D. Wizard the Device
 
