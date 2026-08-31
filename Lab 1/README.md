@@ -57,10 +57,13 @@ Our goal as designers is to make the audience understand that a conversation is 
 7. Peter turns to *us*. "Do you believe in fairies? Clap!" As clapping rises, the
    light **swells back** to full and lifts. Revival.
 
-**Feedback from our breakout room:** Another group guessed the piece by frame 6
-without being told — the fade read clearly as "dying." They couldn't tell frames
-3 and 4 apart at first (leading vs. jealousy both looked like "fast motion"), so
-we added the color flare to frame 4 to separate them.
+**Feedback and Chosen Direction:** 
+The first storyboard was easy to understand, but it felt too much like a simple input-and-output system.
+The second storyboard made the light feel more intelligent because the response changed instead of only repeating the original pattern.
+The third storyboard created the clearest interaction because it included both variation and increasing speed while still being simple enough to prototype with one phone and one hidden wizard.
+We decided to continue with Storyboard 3 for the physical prototype.
+It can be staged with a very simple setup, but still captures the main idea we want to recreate: a basic light signal gradually becoming a conversation between a human and another intelligence.
+
 
 ## Part B. Act out the Interaction
 
