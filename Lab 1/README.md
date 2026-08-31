@@ -41,7 +41,7 @@ The alien's role is to acknowledge the human signal, respond to it, and graduall
 Our goal as designers is to make the audience understand that a conversation is developing using only light, timing, and the reactions of the human operator.
 
 **Our three storyboards** 
-
+![Storyboard 1](storyboard_1.png)
 Storyboard 1. Basic Call and Response
 Our first storyboard focuses on the simplest version of the interaction.
 The human operator sends a five-color sequence:
@@ -51,7 +51,7 @@ The alien then repeats the same sequence:
 1 → 2 → 3 → 4 → 5
 The operator reacts when they realize that the signal has been returned.
 This version tests whether the basic idea of “we sent something, and something answered us” is clear to the viewer.
-![Storyboard 1](storyboard_1.jpg)
+
 
 Storyboard 2. Pattern Variation
 In the second storyboard, we added a small variation to make the exchange feel more like a conversation instead of simple playback.
