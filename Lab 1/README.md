@@ -356,22 +356,17 @@ The laptop acts as the human control station. The monitor acts as the other side
 
 ## How This Responds to the Masterwork
 
-Our goal is not simply to reproduce the visual appearance of the five-tone scene. We are trying to preserve the central interaction of the original masterwork:
+Our goal is not simply to reproduce the visual appearance of the five-tone scene. We are trying to preserve the central interaction of the original masterwork: Two parties that initially do not share a language gradually discover that they can communicate by repeating, modifying, and responding to patterns.
 
-> Two parties that initially do not share a language gradually discover that they can communicate by repeating, modifying, and responding to patterns.
-
-Our first prototype recreated the visual signaling.
-
-Our second prototype makes the language itself more visible.
-
+Our first prototype recreated the visual signaling. Our second prototype makes the language itself more visible.
 By separating the screen into five persistent signal positions and keeping the existing sound capabilities, the system becomes less like a color animation and more like an instrument for learning how to communicate.
 
-The five inactive gray lights make the structure of the vocabulary visible before any signal is sent.
+1.The five inactive gray lights make the structure of the vocabulary visible before any signal is sent.
 
-The individual colored lights make each symbol legible.
+2.The individual colored lights make each symbol legible.
 
-The call-and-response timing makes the system feel reactive.
+3.The call-and-response timing makes the system feel reactive.
 
-The sequence makes the five-part language explicit.
+4.The sequence makes the five-part language explicit.
 
 Together, these changes push the recreation closer to the core interaction of *Close Encounters of the Third Kind*: the gradual construction of a shared language between two unfamiliar sides.
