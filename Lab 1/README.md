@@ -313,8 +313,10 @@ This directly responds to the feedback that the significance of the five signals
 ---
 
 ## Technical Remix
+ 
 
-We forked and modified the Tinkerbelle code rather than building an entirely separate prototype.
+I forked and modified the Tinkerbelle code rather than building an entirely separate prototype. https://github.com/zijiz/tinkerbelle
+
 ![Updated Tinkerbelle](Updated%20Tinkerbelle.png)
 
 ![Updated Tinkerbelle 2](Updated%20Tinkerbelle2.png)
@@ -347,110 +349,10 @@ This gives us both manual call-and-response interaction and a repeatable sequenc
 
 The laptop acts as the human control station. The monitor acts as the other side of the communication. The interaction begins slowly.
 
-
-
-
-### Frame 1 — Waiting
-
-The phone displays five inactive gray circles.
-
-```text
-○   ○   ○   ○   ○
-```
-
-The participant sits at the laptop controller.
-
-**Goal:** Establish that the system contains five possible signals, but communication has not started yet.
+![Updated storyboard](Updated%20storyboard1.png)
+![Updated storyboard](Updated%20storyboard.png)
 
 ---
-
-### Frame 2 — First Attempt
-
-The participant presses `1`.
-
-The first circle turns red briefly.
-
-```text
-●   ○   ○   ○   ○
-```
-
-It then returns to gray.
-
-The participant waits.
-
-**Goal:** Make the first action feel like an attempt to initiate communication rather than simply pressing a UI button.
-
----
-
-### Frame 3 — Response
-
-After a short pause, another signal appears on the remote display.
-
-The participant notices that the system has responded.
-
-**Goal:** Emphasize the call-and-response relationship that the other groups successfully recognized in our first prototype.
-
----
-
-### Frame 4 — Learning the Vocabulary
-
-Several different signals appear one at a time.
-
-For example:
-
-```text
-○   ●   ○   ○   ○
-```
-
-then:
-
-```text
-○   ○   ●   ○   ○
-```
-
-then:
-
-```text
-○   ○   ○   ●   ○
-```
-
-The participant begins intentionally reproducing the signals.
-
-**Goal:** Show that the five lights are gradually becoming a shared language.
-
----
-
-### Frame 5 — Five-Part Sequence
-
-The system produces:
-
-```text
-1 → 2 → 3 → 4 → 5
-```
-
-The pauses between the lights become shorter.
-
-The participant responds with the same pattern.
-
-**Goal:** Make the five-part structure unmistakable.
-
----
-
-### Frame 6 — Conversation
-
-Signals begin alternating more quickly between the participant and the remote display.
-
-Light and sound become more coordinated.
-
-At this point, the interaction no longer feels like testing individual buttons.
-
-It begins to feel like a conversation.
-
-**Goal:** Recreate the transition in *Close Encounters of the Third Kind* from uncertain signaling to increasingly complex communication.
-
----
-
-
 
 ## How This Responds to the Masterwork
 
