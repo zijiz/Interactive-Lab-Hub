@@ -167,7 +167,6 @@ We also used the Tinkerbelle tool provided by the Interactive Lab course to prot
 ---
 
 ## Part 2 — Make It Your Own
-# Lab 1 — Feedback and Remix
 
 ## Groups We Reviewed
 
