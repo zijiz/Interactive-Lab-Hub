@@ -167,3 +167,430 @@ We also used the Tinkerbelle tool provided by the Interactive Lab course to prot
 ---
 
 ## Part 2 — Make It Your Own
+# Lab 1 — Feedback and Remix
+
+## Groups We Reviewed
+
+We reviewed three other groups' Lab 1 projects and tried to identify what was happening in their videos, what masterwork they were recreating, what the characters were trying to accomplish, and what parts of the interaction were unclear.
+
+### Group 1
+
+[Group 1 Project](https://github.com/Gtpatel02/Interactive-Lab-Hub/tree/Fall2026/Lab%201)
+
+[Video](https://youtube.com/shorts/c-4ke0_H81Y)
+
+From the video, we saw a makeshift "prism" refracting "sunlight" into a rainbow of colors displayed on a phone.
+
+We guessed that the masterwork was Newton's light prism experiment. The main character seemed to be the person allowing the light to enter the prism, while the prism itself was the main object of focus.
+
+The video was very clear and easy to understand. However, we felt that the voiceover explained almost every part of the interaction very explicitly. One possible improvement would be to let the physical interaction communicate more on its own. For example, an actual flashlight or visible beam of light could be directed toward the makeshift prism without narration, perhaps accompanied by a sound effect.
+
+---
+
+### Group 2
+
+[Group 2 Project](https://github.com/Yuge-225/Interactive-Lab-Hub/tree/Fall2026/Lab%201)
+
+From the video, we saw a laptop being closed and a small light beginning to slowly fade in and out.
+
+Our guess was that the masterwork was Apple's "breathing" sleep light. The pulsing light makes the laptop feel as though it is still alive but resting.
+
+We understood the user's goal as putting the laptop to sleep temporarily rather than shutting it down completely. The light communicates this state without requiring any additional interaction.
+
+We thought the physical prototype worked well because the simple laptop form and the light near the edge made the interaction easy to understand. The gradual change in brightness also communicated the idea of "breathing" clearly.
+
+One thing that was less clear in the final video was the role of the nearby student. The storyboard focused more strongly on how another person notices and interprets the light, but the video mostly focused on the laptop itself. Showing the observer's reaction more clearly could strengthen the social aspect of the interaction.
+
+---
+
+### Group 3
+
+[Group 3 Project](https://github.com/certaindragon3/Interactive-Lab-Hub/tree/Fall2026/Lab%201)
+
+From the video, we saw a person interacting with a changing light source on a screen. The light shifted from a cooler color toward orange and red, while the person's movements suggested that the light was becoming stronger or more intense.
+
+We thought the human reactions worked well, especially when the person moved away as the light became more intense. This made the light feel responsive rather than static.
+
+However, from the video alone, the campfire was not immediately recognizable because there was no clear visual representation of a flame. The screen mainly appeared as a changing block of color.
+
+We wondered whether adding more visible flickering, irregular brightness changes, or a flame-like light pattern would make the campfire interaction easier to recognize without explanation.
+
+---
+
+## Feedback We Received
+
+### Group 1
+
+The group understood that our interaction involved some form of communication using light.
+
+They identified the main character as the person attempting to communicate through the light system.
+
+They thought the video communicated the basic interaction successfully, but suggested making the communication aspect more explicit.
+
+They also suggested using more sound so that the idea of communication would be easier to understand.
+
+---
+
+### Group 2
+
+The group clearly understood the call-and-response structure in our video.
+
+They noticed that the person sent a signal from the controller, waited, and then received a sequence of colors on the larger screen.
+
+They especially liked the pause before the response because it made the light feel reactive rather than like a pre-recorded animation.
+
+They were also able to connect the interaction to *Close Encounters of the Third Kind*, particularly once the colored signals began changing in sequence.
+
+One suggestion they gave was to distinguish the "human" signal and the "alien" response more visually, since both sides currently use similar screen-based interfaces.
+
+---
+
+### Group 3
+
+The group liked how the interaction gradually became more active.
+
+At the beginning, the changes were slow and separated by pauses. Later, the colors changed more quickly.
+
+They felt that this progression made it seem as though communication was developing between the two sides.
+
+Even without much explanation, they understood that the person was trying to communicate with something through light.
+
+However, they pointed out that someone unfamiliar with *Close Encounters of the Third Kind* might not immediately understand why there are exactly five signals or that they correspond to the five-tone language.
+
+They suggested adding the original tones or making the five-part structure more explicit.
+
+---
+
+## Summary of Feedback
+
+Across all three groups, several recurring ideas appeared:
+
+- The communication through light was understandable.
+- The call-and-response structure worked well.
+- The pauses between signals helped make the system feel responsive.
+- The five-part language was not always obvious.
+- Sound could make the reference to *Close Encounters of the Third Kind* much clearer.
+- The human and non-human sides of the interaction could be more visually distinct.
+
+The most important feedback was that our first recreation successfully communicated the idea of signaling, but did not yet make the specific five-tone language explicit enough.
+
+---
+
+# Remix, Update, or Critique the Master
+
+## Direction: Make the Five-Tone Language Explicit
+
+For our second version, we decided to address a weakness in the first prototype.
+
+The original recreation showed communication through changing colors, but the specific five-part language from *Close Encounters of the Third Kind* was not immediately recognizable.
+
+Instead of using the entire phone screen as one block of changing color, we modified Tinkerbelle so that the display contains five separate circular lights.
+
+When inactive, all five lights appear as simple gray circles.
+
+When a signal is triggered, one circle changes to its assigned color and then returns to gray.
+
+The five lights form a visible vocabulary:
+
+- `1` → Red
+- `2` → Orange
+- `3` → Yellow
+- `4` → Green
+- `5` → Blue
+
+We also preserved Tinkerbelle's existing sound system so that light and sound can still operate together.
+
+---
+
+## Why We Changed It
+
+In our first recreation, changing the entire screen to one color made each signal visually clear, but it hid one important aspect of the original masterwork.
+
+The characters in *Close Encounters of the Third Kind* are not simply producing colorful effects. They are gradually establishing a shared symbolic language.
+
+By keeping all five possible signals visible at once, even when they are inactive, the new interface makes the structure of the language much clearer.
+
+The five gray circles act like an alphabet waiting to be used.
+
+When one of them becomes colored, the viewer can understand both:
+
+1. which signal is currently being transmitted;
+2. the larger five-part system that the signal belongs to.
+
+This directly responds to the feedback that the significance of the five signals was difficult to infer from our original video.
+
+---
+
+## Technical Remix
+
+We forked and modified the Tinkerbelle code rather than building an entirely separate prototype.
+
+The original Tinkerbelle system already supported:
+
+- remote color control;
+- searching for sounds using text input;
+- playing sound;
+- pausing sound;
+- communication between a controller and a phone using Socket.IO.
+
+We kept those features and added a new `signal` message to the Socket.IO system.
+
+The controller can now send:
+
+```text
+1
+2
+3
+4
+5
+```
+
+Each number activates one corresponding light on the Tinkerbelle display.
+
+We also added a `Sequence` control that automatically performs:
+
+```text
+1 → 2 → 3 → 4 → 5
+```
+
+This gives us both manual call-and-response interaction and a repeatable sequence for demonstrating the five-part language.
+
+---
+
+## Updated Interaction
+
+The laptop acts as the human control station.
+
+The phone acts as the other side of the communication.
+
+The interaction begins slowly.
+
+The human sends one signal:
+
+```text
+1
+```
+
+The remote display responds:
+
+```text
+● ○ ○ ○ ○
+```
+
+The first light briefly becomes red and then returns to gray.
+
+The human waits.
+
+Then another signal appears.
+
+The human begins experimenting with different signals.
+
+For example:
+
+```text
+○ ● ○ ○ ○
+```
+
+followed by:
+
+```text
+○ ○ ● ○ ○
+```
+
+and later:
+
+```text
+○ ○ ○ ● ○
+```
+
+As the interaction continues, the signals begin to occur closer together.
+
+Eventually, the five signals form a recognizable sequence:
+
+```text
+1 → 2 → 3 → 4 → 5
+```
+
+The participant responds by reproducing the same pattern.
+
+The interaction gradually shifts from isolated signals into something that feels more like a conversation.
+
+---
+
+## Storyboard
+
+### Frame 1 — Waiting
+
+The phone displays five inactive gray circles.
+
+```text
+○   ○   ○   ○   ○
+```
+
+The participant sits at the laptop controller.
+
+**Goal:** Establish that the system contains five possible signals, but communication has not started yet.
+
+---
+
+### Frame 2 — First Attempt
+
+The participant presses `1`.
+
+The first circle turns red briefly.
+
+```text
+●   ○   ○   ○   ○
+```
+
+It then returns to gray.
+
+The participant waits.
+
+**Goal:** Make the first action feel like an attempt to initiate communication rather than simply pressing a UI button.
+
+---
+
+### Frame 3 — Response
+
+After a short pause, another signal appears on the remote display.
+
+The participant notices that the system has responded.
+
+**Goal:** Emphasize the call-and-response relationship that the other groups successfully recognized in our first prototype.
+
+---
+
+### Frame 4 — Learning the Vocabulary
+
+Several different signals appear one at a time.
+
+For example:
+
+```text
+○   ●   ○   ○   ○
+```
+
+then:
+
+```text
+○   ○   ●   ○   ○
+```
+
+then:
+
+```text
+○   ○   ○   ●   ○
+```
+
+The participant begins intentionally reproducing the signals.
+
+**Goal:** Show that the five lights are gradually becoming a shared language.
+
+---
+
+### Frame 5 — Five-Part Sequence
+
+The system produces:
+
+```text
+1 → 2 → 3 → 4 → 5
+```
+
+The pauses between the lights become shorter.
+
+The participant responds with the same pattern.
+
+**Goal:** Make the five-part structure unmistakable.
+
+---
+
+### Frame 6 — Conversation
+
+Signals begin alternating more quickly between the participant and the remote display.
+
+Light and sound become more coordinated.
+
+At this point, the interaction no longer feels like testing individual buttons.
+
+It begins to feel like a conversation.
+
+**Goal:** Recreate the transition in *Close Encounters of the Third Kind* from uncertain signaling to increasingly complex communication.
+
+---
+
+## Video Plan
+
+For the final video, we want to avoid explaining the entire interaction through voiceover.
+
+Instead, the interaction should become understandable through timing, repetition, sound, and behavior.
+
+### 0–5 seconds
+
+Show the five inactive gray lights.
+
+The participant waits at the controller.
+
+### 5–10 seconds
+
+The participant sends one signal.
+
+One light turns on briefly.
+
+### 10–15 seconds
+
+There is a pause.
+
+Then the remote system responds.
+
+### 15–25 seconds
+
+Several individual signals are exchanged.
+
+The participant begins to recognize the pattern.
+
+### 25–35 seconds
+
+A full five-part sequence appears.
+
+```text
+1 → 2 → 3 → 4 → 5
+```
+
+### 35–45 seconds
+
+The participant repeats the sequence.
+
+### 45–60 seconds
+
+Signals become faster and more fluid.
+
+Sound becomes more important.
+
+The interaction begins to feel like an active conversation rather than isolated commands.
+
+---
+
+## How This Responds to the Masterwork
+
+Our goal is not simply to reproduce the visual appearance of the five-tone scene.
+
+We are trying to preserve the central interaction of the original masterwork:
+
+> Two parties that initially do not share a language gradually discover that they can communicate by repeating, modifying, and responding to patterns.
+
+Our first prototype recreated the visual signaling.
+
+Our second prototype makes the language itself more visible.
+
+By separating the screen into five persistent signal positions and keeping the existing sound capabilities, the system becomes less like a color animation and more like an instrument for learning how to communicate.
+
+The five inactive gray lights make the structure of the vocabulary visible before any signal is sent.
+
+The individual colored lights make each symbol legible.
+
+The call-and-response timing makes the system feel reactive.
+
+The sequence makes the five-part language explicit.
+
+Together, these changes push the recreation closer to the core interaction of *Close Encounters of the Third Kind*: the gradual construction of a shared language between two unfamiliar sides.
