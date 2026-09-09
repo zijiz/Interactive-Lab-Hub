@@ -315,6 +315,9 @@ This directly responds to the feedback that the significance of the five signals
 ## Technical Remix
 
 We forked and modified the Tinkerbelle code rather than building an entirely separate prototype.
+![Updated Tinkerbelle](Updated%20Tinkerbelle.png)
+
+![Updated Tinkerbelle 2](Updated%20Tinkerbelle2.png)
 
 We kept those features original Tinkerbelle system already supported and added a new `signal` message to the Socket.
 
