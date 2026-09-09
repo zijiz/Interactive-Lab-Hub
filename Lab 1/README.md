@@ -277,6 +277,8 @@ The most important feedback was that our first recreation successfully communica
 
 # Remix, Update, or Critique the Master
 
+Video link:https://youtube.com/shorts/sNoawXLJ9jE?feature=share
+
 ## Direction: Make the Five-Tone Language Explicit
 
 For our second version, we decided to address a weakness in the first prototype.
