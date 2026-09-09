@@ -281,13 +281,9 @@ The most important feedback was that our first recreation successfully communica
 
 For our second version, we decided to address a weakness in the first prototype.
 
-The original recreation showed communication through changing colors, but the specific five-part language from *Close Encounters of the Third Kind* was not immediately recognizable.
+The original recreation showed communication through changing colors, but the specific five-part language from *Close Encounters of the Third Kind* was not immediately recognizable. Instead of using the entire phone screen as one block of changing color, we modified Tinkerbelle so that the display contains five separate circular lights.
 
-Instead of using the entire phone screen as one block of changing color, we modified Tinkerbelle so that the display contains five separate circular lights.
-
-When inactive, all five lights appear as simple gray circles.
-
-When a signal is triggered, one circle changes to its assigned color and then returns to gray.
+When inactive, all five lights appear as simple gray circles. When a signal is triggered, one circle changes to its assigned color and then returns to gray.
 
 The five lights form a visible vocabulary:
 
@@ -303,11 +299,7 @@ We also preserved Tinkerbelle's existing sound system so that light and sound ca
 
 ## Why We Changed It
 
-In our first recreation, changing the entire screen to one color made each signal visually clear, but it hid one important aspect of the original masterwork.
-
-The characters in *Close Encounters of the Third Kind* are not simply producing colorful effects. They are gradually establishing a shared symbolic language.
-
-By keeping all five possible signals visible at once, even when they are inactive, the new interface makes the structure of the language much clearer.
+In our first recreation, changing the entire screen to one color made each signal visually clear, but it hid one important aspect of the original masterwork. The characters in *Close Encounters of the Third Kind* are not simply producing colorful effects. They are gradually establishing a shared symbolic language. By keeping all five possible signals visible at once, even when they are inactive, the new interface makes the structure of the language much clearer.
 
 The five gray circles act like an alphabet waiting to be used.
 
@@ -324,15 +316,7 @@ This directly responds to the feedback that the significance of the five signals
 
 We forked and modified the Tinkerbelle code rather than building an entirely separate prototype.
 
-The original Tinkerbelle system already supported:
-
-- remote color control;
-- searching for sounds using text input;
-- playing sound;
-- pausing sound;
-- communication between a controller and a phone using Socket.IO.
-
-We kept those features and added a new `signal` message to the Socket.IO system.
+We kept those features original Tinkerbelle system already supported and added a new `signal` message to the Socket.
 
 The controller can now send:
 
@@ -356,67 +340,12 @@ This gives us both manual call-and-response interaction and a repeatable sequenc
 
 ---
 
-## Updated Interaction
+## Updated Interaction & Storyboard
 
-The laptop acts as the human control station.
+The laptop acts as the human control station. The monitor acts as the other side of the communication. The interaction begins slowly.
 
-The phone acts as the other side of the communication.
 
-The interaction begins slowly.
 
-The human sends one signal:
-
-```text
-1
-```
-
-The remote display responds:
-
-```text
-● ○ ○ ○ ○
-```
-
-The first light briefly becomes red and then returns to gray.
-
-The human waits.
-
-Then another signal appears.
-
-The human begins experimenting with different signals.
-
-For example:
-
-```text
-○ ● ○ ○ ○
-```
-
-followed by:
-
-```text
-○ ○ ● ○ ○
-```
-
-and later:
-
-```text
-○ ○ ○ ● ○
-```
-
-As the interaction continues, the signals begin to occur closer together.
-
-Eventually, the five signals form a recognizable sequence:
-
-```text
-1 → 2 → 3 → 4 → 5
-```
-
-The participant responds by reproducing the same pattern.
-
-The interaction gradually shifts from isolated signals into something that feels more like a conversation.
-
----
-
-## Storyboard
 
 ### Frame 1 — Waiting
 
@@ -518,63 +447,11 @@ It begins to feel like a conversation.
 
 ---
 
-## Video Plan
 
-For the final video, we want to avoid explaining the entire interaction through voiceover.
-
-Instead, the interaction should become understandable through timing, repetition, sound, and behavior.
-
-### 0–5 seconds
-
-Show the five inactive gray lights.
-
-The participant waits at the controller.
-
-### 5–10 seconds
-
-The participant sends one signal.
-
-One light turns on briefly.
-
-### 10–15 seconds
-
-There is a pause.
-
-Then the remote system responds.
-
-### 15–25 seconds
-
-Several individual signals are exchanged.
-
-The participant begins to recognize the pattern.
-
-### 25–35 seconds
-
-A full five-part sequence appears.
-
-```text
-1 → 2 → 3 → 4 → 5
-```
-
-### 35–45 seconds
-
-The participant repeats the sequence.
-
-### 45–60 seconds
-
-Signals become faster and more fluid.
-
-Sound becomes more important.
-
-The interaction begins to feel like an active conversation rather than isolated commands.
-
----
 
 ## How This Responds to the Masterwork
 
-Our goal is not simply to reproduce the visual appearance of the five-tone scene.
-
-We are trying to preserve the central interaction of the original masterwork:
+Our goal is not simply to reproduce the visual appearance of the five-tone scene. We are trying to preserve the central interaction of the original masterwork:
 
 > Two parties that initially do not share a language gradually discover that they can communicate by repeating, modifying, and responding to patterns.
 
