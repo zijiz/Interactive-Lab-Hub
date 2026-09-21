@@ -1,5 +1,6 @@
 # Interactive Prototyping: The Clock of Pi
 **NAMES OF COLLABORATORS HERE**
+Yuge Xu, Youzhu Jin, Serena, Ziji Zhang
 
 Does it feel like time is moving strangely during this semester?
 
@@ -162,6 +163,7 @@ You can look in `image.py` for an example of how to display an image on the scre
 
 #### Pi Network Information
 <img src="demo_pic/pi_network_info.png" width="400">
+
 #### Successful Screen Test
 <img src="demo_pic/screen_test_red.png" width="400">
 
@@ -440,7 +442,8 @@ The left button starts a focus session, and the right button ends it.
 
 [Watch the final Attention Horizon demo](https://www.youtube.com/watch?v=mNODjSwtffE)
 
+## AI Disclaimer
 
-As always, make sure you document contributions and ideas from others (and AI) explicitly in your writeup.
+Generative AI (ChatGPT) was used as a support tool during the development of this project. It assisted with explaining Raspberry Pi setup and debugging, suggesting Python code structures for the MiniPiTFT display, refining the beach clock interaction logic, and helping organize and edit parts of this README.
 
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab.  Make sure the page for the group turn in is linked to your personal Interactive Lab Hub page. 
+The project concept, interaction design, visual decisions, implementation choices, physical testing, and final evaluation were completed and decided by the project team. AI-generated suggestions and code were reviewed, modified, and tested by the team before being included in the final project.
