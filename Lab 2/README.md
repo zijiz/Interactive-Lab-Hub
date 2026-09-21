@@ -203,9 +203,179 @@ We strongly discourage literal digital or analog clock display: Be creative.
 
 ** Insert ideas, sketches, [Verplank diagrams](https://ccrma.stanford.edu/courses/250a-fall-2004/IDSketchbok.pdf)), storyboards for your ideas **
 
+### Attention Horizon
 
+#### Concept
 
-**Put the names of the people you gave feedback to here. (Even better, add links to their repos here!)**
+**Attention Horizon is a clock that represents the passage of time and accumulated focus time through a changing beach scene.**
+
+The position of the sun represents the progression of the day. It rises in the morning, travels across the sky, and eventually sets in the evening.
+
+The condition of the beach represents the amount of intentional focus time that the user has recorded. As accumulated focus time increases, the sky becomes brighter, clouds disappear, and the ocean becomes calmer.
+
+The central design principle is:
+
+> **The sun shows how much of the day has passed, while the beach weather shows how much intentional focus time has been recorded.**
+
+Instead of only asking:
+
+> “What time is it?”
+
+Attention Horizon also asks:
+
+> “What did my attention make this day feel like?”
+
+---
+
+### Representing Time
+
+The clock communicates the approximate time of day through the sun’s position and the color of the sky.
+
+| Time of day | Visual representation                                        |
+| ----------- | ------------------------------------------------------------ |
+| Morning     | The sun rises from the left side of the screen               |
+| Noon        | The sun reaches its highest position                         |
+| Afternoon   | The sun moves toward the right side                          |
+| Sunset      | The sun approaches the horizon and the sky becomes warmer    |
+| Night       | The sun disappears and may be replaced by the moon and stars |
+
+The exact numerical time does not need to remain visible. The user can understand the general stage of the day through the landscape.
+
+---
+
+### Measuring Focus
+
+Attention Horizon does not attempt to detect whether the user is actually concentrating. Instead, it measures **self-recorded focus duration**.
+
+The user presses the left button when beginning an intentional focus session and presses the right button when the session ends. The device measures the elapsed time and adds it to the total focus time accumulated that day.
+
+The condition of the beach is based on this accumulated time:
+
+| Accumulated focus time | Focus state                   | Beach scene                               |
+| ---------------------- | ----------------------------- | ----------------------------------------- |
+| 0–20 minutes           | Low accumulated focus time    | Passengers, ships, clouds, rain, and rough waves |
+| 20–60 minutes          | Medium accumulated focus time | Normal sky, less passengers, less ships and moderate waves             |
+| More than 60 minutes   | High accumulated focus time   | Bright sky, clear weather, turtles, crabs and calm water |
+
+These thresholds are initial design assumptions. Future versions could allow users to customize them based on their own daily goals.
+
+---
+
+### Interaction
+
+#### Idle State
+
+When no focus session is active, the screen displays the current beach scene.
+
+* The sun’s position communicates the approximate time.
+* The weather and ocean communicate accumulated focus time.
+
+#### Starting a Focus Session
+
+The user presses the **left button** to begin a focus session.
+
+The display briefly shows **Focus Started**, and a small indicator confirms that the timer is active.
+
+#### Active Focus Session
+
+While the timer is running, the user works without needing to interact with the clock. The device continues measuring elapsed time while the sun moves according to the actual time of day.
+
+#### Ending a Focus Session
+
+The user presses the **right button** to stop the session.
+
+The completed session duration is added to the daily total. The beach then updates according to the new accumulated focus time.
+
+---
+
+### Controls
+
+| Control      | Action                                                   |
+| ------------ | -------------------------------------------------------- |
+| Left button  | Start recording a focus session                          |
+| Right button | Stop the session and add its duration to the daily total |
+
+The two buttons record the beginning and end of an intentional focus period. They do not measure the quality or intensity of the user’s concentration.
+
+---
+
+### Verplank Diagram
+
+#### Do
+
+* Look at the sun to understand the approximate time of day.
+* Press the left button to start a focus session.
+* Work without interacting with the device.
+* Press the right button to end the session.
+* Look at the beach to understand accumulated focus time.
+
+#### Feel
+
+* Calm while focusing.
+* Aware of how intentional time is being used.
+* Less pressure from constantly seeing exact numerical time.
+* Satisfied as the beach gradually becomes calmer.
+
+#### Know
+
+The user understands:
+
+* The approximate stage of the day.
+* Whether the focus timer is currently active.
+* How much intentional focus time has accumulated.
+* How close they are to reaching a daily focus goal.
+
+#### Display
+
+The MiniPiTFT shows:
+
+* The sun’s position.
+* The color and brightness of the sky.
+* The condition of the ocean.
+* Clouds or rain when little focus time has accumulated.
+* A small indicator when the focus timer is active.
+
+#### Control
+
+* **Left button:** Start focus.
+* **Right button:** Stop focus.
+
+---
+
+### Storyboard
+<img src="demo_pic/storyboard_1.png" width="600">
+
+<img src="demo_pic/storyboard_2.png" width="600">
+
+<img src="demo_pic/storyboard_3.png" width="600">
+
+<img src="demo_pic/storyboard_4.png" width="600">
+
+<img src="demo_pic/storyboard_5.png" width="600">
+---
+
+### Sketch
+<img src="demo_pic/sketch_1.png" width="600">
+
+<img src="demo_pic/sketch_2.png" width="600">
+
+### Peer Feedback
+
+I gave feedback to:
+
+- Jacey Hu
+- David Zhang
+- Jerry Lee
+
+Feedback I received:
+
+- Feedback point: I really like the idea behind this clock. Instead of worrying about the actual time on the wall, the time you actually spend is the time that's truly yours. I also like how the interface starts with rough waves and gradually settles into a calm sea as the focus session gets longer. It's a nice way to represent the user entering a flow state, and wanting to see that calm sea gives you a reason to keep going.
+
+One thought: people often have several focus sessions in a single day. If the device could also track the total accumulated focus time across all of those sessions and give the user some feedback on it, I think that would create an even stronger sense of accomplishment.
+
+- Feedback point: The sun and weather do a nice job giving the two time types a clear visual identity. The build order also makes sense for a screen this small. I'd want to check the morning, sunset, and night transitions early in Demo Mode, since the sun's position could be tricky to make out near the horizon.
+
+- Feedback point: I like that the beach can shift mood without relying on numbers. On a 240×135 screen, I'd keep the waves, clouds, and rain minimal so the sun stays visible. It'd also help to add a small visual signal showing when a focus session is actively being tracked.
 
 # Lab 2 Part 2
 
@@ -215,6 +385,8 @@ We strongly discourage literal digital or analog clock display: Be creative.
 
 2. Look at and give feedback on the Part E. for at least 3 other people in the class and get 3 people to comment on your Part E!)
 **Put the feedback for your ideas here.**
+
+The feedback helped us think about how a focus session could represent entering a flow state. This inspired us to add a turtle to the beach animation. As the user focuses, the turtle becomes part of the calmer natural scene, representing the user gradually entering flow and becoming more connected with the environment.
 
 ## Update your Lab Hub
 
@@ -240,16 +412,33 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
+### Modified Barebones PiClock
+
+For the first iteration, we modified the provided `screen_clock.py` to display the current time on the MiniPiTFT. This small modification helped me verify that I could control the display, position text, and refresh the screen continuously.
+
+The final version of the code is available in [`barebones_clock.py`](barebones_clock.py).
+
+#### Demo Video
+
+[Watch the modified barebones PiClock demo](https://www.youtube.com/shorts/yJ6-v29Rack)
+
 ## Now, make your own PiClock
 
 Do take advantage of having done the previous iteration to refine and simplify your design.
 
-** Insert any updates ideas, sketches, [Verplank diagrams](https://ccrma.stanford.edu/courses/250a-fall-2004/IDSketchbok.pdf))!, storyboards for your ideas **
+### Final PiClock — Attention Horizon
 
+The final version develops the original clock into an interactive beach scene. The sun represents the progression of the day, while the beach conditions represent accumulated self-recorded focus time.
 
-\*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
+The left button starts a focus session, and the right button ends it.
 
-\*\*\***Take a video of your PiClock.**\*\*\*
+#### Final Code
+
+[View the final `screen_clock.py`](screen_clock.py)
+
+#### Final Demo Video
+
+[Watch the final Attention Horizon demo](https://www.youtube.com/watch?v=mNODjSwtffE)
 
 
 As always, make sure you document contributions and ideas from others (and AI) explicitly in your writeup.
