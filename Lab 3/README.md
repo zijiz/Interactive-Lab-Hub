@@ -2,6 +2,8 @@
 
 **NAMES OF COLLABORATORS HERE**
 
+Yuge Xu, Youzhu Jin, Serena Tsai, Jiesen Huang, Ziji Zhang
+
 > **Ziji.** I worked on the Lab 3 implementation and testing, including the speech interaction, coach behavior, and overall integration. Codex assisted with coding, debugging, documentation, and visual materials; I contributed to the concept, testing, feedback, and refinement of the final interaction.
 
 
