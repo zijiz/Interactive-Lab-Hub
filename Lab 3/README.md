@@ -1,8 +1,8 @@
 # Chatterboxes
 
-**Collaborators:** Serena Tsai (ht534), Yuge Xu (yx692), Youzhu Jin (yj578), and Zijii Zhang (zz894).
+**Collaborators:** Jiesen Huang （jh3263），Serena Tsai (ht534), Yuge Xu (yx692), Youzhu Jin (yj578), and Zijii Zhang (zz894).
 
-> **Ziji Zhang.** I worked on the Lab 3 implementation and testing, including the speech interaction, coach behavior, and overall integration. Codex assisted with coding, debugging, documentation, and visual materials; I contributed to the concept, testing, feedback, and refinement of the final interaction.
+> **Ziji Zhang.** I worked on the Lab 3 ideation and implementation, including the speech interaction, coach behavior. Codex assisted with coding, debugging, documentation, and visual materials; I contributed to the concept, feedback, and refinement of the interaction.
 
 > **How to read this page:** my own responses are set in blockquotes like this
 > one, to separate them from the original assignment text.
